@@ -30,6 +30,7 @@ import {
   Transactions
 
 } from './components/index.js';
+import AboutUs from './components/AboutUs/AboutUs.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
       { path: "/", element: <LoginPage /> },
       { path: "/login", element: <LoginPage /> },
       { path: "/developers", element: <AboutDevelopers /> },
+      { path: "about", element: <AboutUs/> },
 
       // Store Manager Page with Nested Routes
       {
@@ -74,7 +76,7 @@ const router = createBrowserRouter([
           {path:"preview/:id", element:<Preview />},
           { path: "order-now", element: <OrderForm/> },
         ],
-      }
+      },
     ]
   }
 ]);

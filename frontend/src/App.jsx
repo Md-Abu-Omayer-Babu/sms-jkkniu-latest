@@ -1,7 +1,5 @@
-import { useState } from 'react'
 import './App.css'
 import {Header, Footer} from './components/index.js'
-import AboutDevelopers from './pages/AboutDevelopers.jsx'
 import { Outlet } from 'react-router-dom'
 
 function App() {
