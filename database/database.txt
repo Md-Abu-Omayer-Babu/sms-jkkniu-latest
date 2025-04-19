@@ -1,0 +1,17 @@
+mongosh
+
+
+use sms-jkkniu
+
+db.users.insertOne({
+  username: "omayer",
+  fullName: "Md Abu Omayer Babu",
+  email: "abuomayerbabu@gmail.com",
+  department: "Admin",
+  designation: "Manager",
+  role: "manager", // Valid values: "register", "manager", "deptAdmin"
+  password: "$2a$11$8SLCwrW9xn5zJ.Pq49bbOuCrzun8F6VzvLA51wMa9On/kAZTRwp7.", // '12345678' (bcrypt hashed)
+  signature: "https://res.cloudinary.com/diviczcbx/image/upload/v1713500000/signatures/manager_signature.png",
+  createdAt: new Date(),
+  updatedAt: new Date()
+})
