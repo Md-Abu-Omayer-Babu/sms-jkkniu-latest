@@ -59,7 +59,7 @@ const Footer = () => {
               <FaLinkedin className="text-gray-400 text-lg hover:text-green-300 transition" />
             </a>
             <a
-              href="https://new.jkkniu.edu.bd/"
+              href="https://jkkniu.edu.bd/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="min-h-screen px-6 py-40 text-gray-800">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-stretch">
         {/* Contact Form */}
-        <div className="bg-white p-8 shadow-lg rounded-lg h-full">
+        <div className="bg-white/90 p-8 shadow-lg rounded-lg h-full">
           <h2 className="text-3xl font-bold text-blue-600 mb-6">
             📬 Get in Touch
           </h2>
@@ -72,7 +72,7 @@ const Contact = () => {
             </h3>
             <div className="flex items-center gap-4">
               <MapPin className="text-blue-600" />
-              <span>JKKNIU Campus, Trishal, Mymensingh, Bangladesh</span>
+              <span>JKKNIU Register Office, JKKNIU</span>
             </div>
             <div className="flex items-center gap-4">
               <Mail className="text-blue-600" />
@@ -97,12 +97,12 @@ const Contact = () => {
             <div className="flex items-center gap-4">
             <Globe className="text-blue-600" />
             <a
-              href="https://new.jkkniu.edu.bd/"
+              href="https://jkkniu.edu.bd/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-700 hover:underline"
             >
-              https://new.jkkniu.edu.bd/
+              https://jkkniu.edu.bd/
             </a>
           </div>
           </div>
