@@ -31,6 +31,7 @@ import {
 
 } from './components/index.js';
 import AboutUs from './components/AboutUs/AboutUs.jsx';
+import Contact from './components/Contact/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,7 @@ const router = createBrowserRouter([
       { path: "/login", element: <LoginPage /> },
       { path: "/developers", element: <AboutDevelopers /> },
       { path: "about", element: <AboutUs/> },
+      {path: "/contact", element: <Contact/> },
 
       // Store Manager Page with Nested Routes
       {
